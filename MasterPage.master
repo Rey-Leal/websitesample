@@ -1,0 +1,169 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MasterPage</title>
+    <link href="css/Estilos.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="images/IconeSite.ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="topo">
+        <table width="100%">
+            <tr>
+                <td>
+                    <img alt="" src="images/Parafuso.gif" align="left" />
+                </td>
+                <td>
+                    <img alt="" src="images/Titulo.jpg" height="40px" width="400px" />
+                </td>
+                <td>
+                    <img alt="" src="images/Parafuso.gif" align="right" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="topoUser">
+        <asp:Panel ID="pnlUsuario" runat="server" Visible="False">
+            <asp:Label ID="lbUsuario" runat="server" Text="User"></asp:Label>
+        </asp:Panel>
+    </div>
+    <div class="link">
+        <table id="tblGeral" cellpadding="0" cellspacing="0" class="zeroBorder">
+            <tr>
+                <td>
+                    <table id="tblInicial" cellpadding="0" cellspacing="0" class="zeroBorder">
+                        <tr>
+                            <td>
+                                <a href="Default.aspx">
+                                    <img alt="Home" src="images/Home.gif" class="zeroBorder" /></a>
+                            </td>
+                            <td>
+                                <a href="Login.aspx">
+                                    <div class="buttonSuperior">
+                                        Login</div>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <asp:Panel ID="pnlLogado" runat="server" Visible="false" CssClass="zeroBorder">
+                        <table id="tblLogado" cellpadding="0" c class="zeroBorder">
+                            <tr>
+                                <td>
+                                    <a href="Usuarios.aspx">
+                                        <div class="buttonSuperior">
+                                            Usuários</div>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Cadastros.aspx">
+                                        <div class="buttonSuperior">
+                                            Cadastros</div>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Configuracoes.aspx">
+                                        <div class="buttonSuperior">
+                                            Configurações</div>
+                                    </a>
+                                </td>
+                                <td>
+                                    <asp:ImageButton ID="btnSair" runat="server" ImageUrl="images/Sair.gif" OnClick="btnSair_Click" />
+                                </td>
+                            </tr>
+                        </table>
+                    </asp:Panel>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-1">
+        <div class="linkLateral">
+            <br />
+            <p>
+                <a href="Default.aspx">
+                    <div class="buttonLateral">
+                        Home</div>
+                </a>
+            </p>
+            <p>
+                <a href="Localizacao.aspx">
+                    <div class="buttonLateral">
+                        Localização</div>
+                </a>
+            </p>
+            <p>
+                <a href="QuemSomos.aspx">
+                    <div class="buttonLateral">
+                        Quem Somos</div>
+                </a>
+            </p>
+            <p>
+                <a href="Galeria.aspx">
+                    <div class="buttonLateral">
+                        Galeria</div>
+                </a>
+            </p>
+            <p>
+                <a href="Downloads.aspx">
+                    <div class="buttonLateral">
+                        Downloads</div>
+                </a>
+            </p>
+            <p>
+                <a href="Noticias.aspx">
+                    <div class="buttonLateral">
+                        Notícias</div>
+                </a>
+            </p>
+            <p>
+                <a href="Sugestoes.aspx">
+                    <div class="buttonLateral">
+                        Sugestões</div>
+                </a>
+            </p>
+            <p>
+                <a href="Patrocinadores.aspx">
+                    <div class="buttonLateral">
+                        Patrocinadores</div>
+                </a>
+            </p>
+            <p>
+                <a href="Contatos.aspx">
+                    <div class="buttonLateral">
+                        Contatos</div>
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="col-2">
+        <div class="conteudo">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div class="limpar">
+    </div>
+    <div class="rodape">
+        <table width="100%">
+            <tr>
+                <td>
+                    <img alt="" src="images/Parafuso.gif" align="left" />
+                </td>
+                <td>
+                    WebMaster ReyLeal 2009
+                </td>
+                <td>
+                    <img alt="" src="images/Parafuso.gif" align="right" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

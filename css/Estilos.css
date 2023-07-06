@@ -1,0 +1,246 @@
+﻿*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    text-align: center;
+    margin: 10px auto;
+    background-color: #191970;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: White;
+    padding: 10px 10px 2px 10px;
+    width: 730px;
+    font-family: Verdana;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 50px #000;
+    -moz-border-radius: 10px;    
+}
+a:link
+{
+    text-decoration: none;
+}
+a:visited
+{
+    text-decoration: none;
+}
+a:active
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+}
+.pai
+{
+    text-align: center;
+    margin: 0px auto;
+    font-size: 12px;
+}
+.topo
+{
+    padding: 20px;
+    border: 1px solid #FFF;
+    height: 40px;
+    font-size: 40px;
+    background-color: #000;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+.topoUser
+{
+    text-align: right;
+    font-size: 10px;
+    padding: 0px;
+}
+.conteudo
+{
+    font-size: 12px;
+    border: 1px solid #FFF;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #000;
+    height: 360px;
+    overflow: auto;
+    float: right;
+    width: 520px;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+.alinhamentoEsquerdo
+{
+    text-align: left;
+}
+.rodape
+{
+    padding: 3px 20px 0px 20px;
+    border: 1px solid #FFF;
+    margin: 10px 0px;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 12px;
+    background-color: Black;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+.link
+{
+    text-align: left;
+    border: 1px solid #FFF;
+    margin-top: 10px;
+    background-color: Black;
+    height: 33px;
+    padding: 5px;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+.linkLateral
+{
+    border: 1px solid #FFF;
+    margin-top: 10px;
+    background-color: Black;
+    text-align: center;
+    height: 360px;
+    padding: 20px;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+.linkTable
+{
+    border: none;
+}
+.zeroBorder
+{
+    text-align: center;
+    border: 0px;
+    padding: 0px;
+}
+.textbox
+{
+    border: 1px solid silver;
+    font-size: 12px;
+    width: 150px;
+    background-color: #027;
+    background-image: url(../images/TextBox.gif);
+    color: White;
+}
+.button
+{
+    border: 1px solid silver;
+    font-size: 12px;
+    background-color: Blue;
+    background-image: url(../images/BotaoLateral.gif);
+    color: White;
+}
+.button:hover
+{
+    cursor: pointer;
+    background-image: url(../images/BotaoLateralHover.gif);
+}
+.buttonSuperior
+{
+    border: 0px;
+    font-size: 12px;
+    font-family: Verdana;
+    font-weight: bold;
+    background-color: #000;
+    background-image: url(../images/BotaoLateral.gif);
+    color: White;
+    height: 15px;
+    line-height: 15px;
+    width: 152px;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+.buttonSuperior:hover
+{
+    cursor: pointer;
+    background-image: url(../images/BotaoLateralHover.gif);
+}
+.buttonLateral
+{
+    border: 0px;
+    font-size: 12px;
+    font-family: Verdana;
+    font-weight: bold;
+    background-color: #000;
+    background-image: url(../images/BotaoLateral.gif);
+    margin-bottom: 15px;
+    color: White;
+    height: 15px;
+    line-height: 15px;
+    width: 110px;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+.buttonLateral:hover
+{
+    cursor: pointer;
+    background-image: url(../images/BotaoLateralHover.gif);
+}
+.imagensGaleria
+{
+    width: 200px;
+}
+.limpar
+{
+    clear: both;
+}
+.col-1
+{
+    float: left;
+    width: 150px;
+}
+.col-2
+{
+    float: right;
+    margin-left: 10px;
+}
+.col-3
+{
+    float: right;
+    width: 200px;
+}
+a:link
+{
+    color: Teal;
+}
+a:visited
+{
+    color: White;
+}
+a:active
+{
+    color: Black;
+}
+a:hover
+{
+    color: Silver;
+}
+.centralizado
+{
+    text-align: center;
+}
+.fonte10px
+{
+    font-size: 10px;
+}
